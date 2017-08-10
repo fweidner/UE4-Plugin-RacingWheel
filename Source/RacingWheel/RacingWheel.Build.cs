@@ -11,8 +11,8 @@ using System.IO;
 
 public class RacingWheel : ModuleRules
 {
-	public RacingWheel(TargetInfo Target)
-	{
+	public RacingWheel(ReadOnlyTargetRules Target) : base(Target)
+    {
 		PrivateIncludePathModuleNames.Add("TargetPlatform");
 		PublicAdditionalLibraries.Add("atls.lib");
 		
@@ -85,7 +85,7 @@ public class RacingWheel : ModuleRules
 		get { return Path.GetFullPath(Path.Combine(ModulePath, "../../ThirdParty/")); }
 	}
 
-	public bool LoadSDLLib(TargetInfo Target)
+	public bool LoadSDLLib(ReadOnlyTargetRules Target)
 	{
 		bool isLibrarySupported = false;
 		string LibrariesPath = "";

@@ -1,20 +1,24 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.1",
-	"FriendlyName": "RacingWheel",
-	"Description": "Plugin to enable use of Thrustmaster Steering Wheel and Thrustmaster Shifter TH8a",
-	"Category": "Input Devices",
-	"CreatedBy": "Luis Rojas",
-	"CreatedByURL": "http://www.tu-ilmenau.de",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"Modules": [
-		{
-			"Name": "RacingWheel",
-			"Type": "Runtime"
-		}
-	],
-	"EnabledByDefault": true
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.1",
+  "FriendlyName": "RacingWheel",
+  "Description": "Plugin to enable use of Thrustmaster Steering Wheel and Thrustmaster Shifter TH8a",
+  "Category": "Input Devices",
+  "CreatedBy": "Luis Rojas",
+  "CreatedByURL": "http://www.tu-ilmenau.de",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "RacingWheel",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "BlacklistPlatforms": [ "IOS", "HTML5" ]
+    }
+  ]
 }
