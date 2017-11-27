@@ -5,10 +5,10 @@
 * ===================================================================================
 * Authors:  Luis Rojas (luis-alejandro.rojas-vargas@tu-ilmenau.de)
 *************************************************************************************/
+#include "WheelInterface.h"
 
 #include "RacingWheelPrivatePCH.h"
 
-#include "WheelInterface.h"
 
 static Controller *MyControl;
 static ForceFeedback* myfeedBack;

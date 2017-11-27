@@ -137,7 +137,7 @@ public:
 
 	unsigned int GetPad() { return SDL_JoystickGetHat(_Joystick, 0); }
 
-	inline int Controller::getTriggerFormat(int Value, bool Inverted)
+	inline int getTriggerFormat(int Value, bool Inverted)
 	{
 		if (Inverted)
 			return (0x7FFF - Value);

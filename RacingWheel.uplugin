@@ -5,7 +5,7 @@
   "FriendlyName": "RacingWheel",
   "Description": "Plugin to enable use of Thrustmaster Steering Wheel and Thrustmaster Shifter TH8a",
   "Category": "Input Devices",
-  "CreatedBy": "Luis Rojas",
+  "CreatedBy": "Luis Rojas and Florian Weidner",
   "CreatedByURL": "http://www.tu-ilmenau.de",
   "DocsURL": "",
   "MarketplaceURL": "",
@@ -18,7 +18,8 @@
       "Name": "RacingWheel",
       "Type": "Runtime",
       "LoadingPhase": "Default",
-      "BlacklistPlatforms": [ "IOS", "HTML5" ]
+      "BlacklistPlatforms": [ "IOS", "HTML5" ],
+      "WhitelistPlatforms":  ["Win64"]
     }
   ]
 }

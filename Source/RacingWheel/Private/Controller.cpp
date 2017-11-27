@@ -6,9 +6,10 @@
 * Authors:  Luis Rojas (luis-alejandro.rojas-vargas@tu-ilmenau.de)
 *************************************************************************************/
 
+#include "Controller.h"
+
 #include "RacingWheelPrivatePCH.h"
 
-#include "Controller.h"
 
 #include <iostream>
 

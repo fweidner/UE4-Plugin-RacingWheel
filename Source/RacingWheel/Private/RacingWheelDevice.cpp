@@ -6,12 +6,13 @@
 * Authors:  Luis Rojas (luis-alejandro.rojas-vargas@tu-ilmenau.de)
 *************************************************************************************/
 
+#include "RacingWheelDevice.h"
+
 #include "RacingWheelPrivatePCH.h"
 #include "Internationalization.h" // LOCTEXT
 
 #include "IInputDevice.h"
 
-#include "RacingWheelDevice.h"
 
 using namespace ThrustmasterWheel;
 

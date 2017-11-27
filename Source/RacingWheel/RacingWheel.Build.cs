@@ -13,8 +13,11 @@ public class RacingWheel : ModuleRules
 {
 	public RacingWheel(ReadOnlyTargetRules Target) : base(Target)
     {
-		PrivateIncludePathModuleNames.Add("TargetPlatform");
-		PublicAdditionalLibraries.Add("atls.lib");
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+
+        PrivateIncludePathModuleNames.Add("TargetPlatform");
+		//PublicAdditionalLibraries.Add("atls.lib");
 		
 		PublicIncludePaths.AddRange(
 			new string[] {

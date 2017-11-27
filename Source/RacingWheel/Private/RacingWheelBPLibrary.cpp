@@ -1,5 +1,6 @@
- #include "RacingWheelPrivatePCH.h"
 #include "RacingWheelBPLibrary.h"
+
+#include "RacingWheelPrivatePCH.h"
 
 using namespace ThrustmasterWheel;
 
