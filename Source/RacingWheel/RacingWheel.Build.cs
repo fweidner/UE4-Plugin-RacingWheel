@@ -15,7 +15,6 @@ public class RacingWheel : ModuleRules
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
-
         PrivateIncludePathModuleNames.Add("TargetPlatform");
 		//PublicAdditionalLibraries.Add("atls.lib");
 		
