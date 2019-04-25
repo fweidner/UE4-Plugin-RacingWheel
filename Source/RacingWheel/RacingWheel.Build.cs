@@ -19,9 +19,7 @@ public class RacingWheel : ModuleRules
 		//PublicAdditionalLibraries.Add("atls.lib");
 		
 		PublicIncludePaths.AddRange(
-			new string[] {
-				"RacingWheel/Public"
-				
+			new string[] {			
 				// ... add public include paths required here ...
 			}
 			);
