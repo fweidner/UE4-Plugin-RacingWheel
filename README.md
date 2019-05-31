@@ -11,9 +11,9 @@
 * Compile your project
 * Go to project settings > Input
 * For example, 
-** add a new Axis Mapping for MoveForward: Thrustmaster -> Gas
-** add a new Axis Mapping for MoveRight: Thrustmaster -> Steering
-** Delete all references to GenericUSBController and Gamepad
+  * add a new Axis Mapping for MoveForward: Thrustmaster -> Gas
+  *  add a new Axis Mapping for MoveRight: Thrustmaster -> Steering
+  * Delete all references to GenericUSBController and Gamepad
 
 Works :)
 
