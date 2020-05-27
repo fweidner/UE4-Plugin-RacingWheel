@@ -1,11 +1,10 @@
 # Unreal Version
-4.22
+4.24
 
 # How to use this plugin 
 * Create a new project (Vehicle, C++)
-* Create new folder: Plugins
-* Go to Plugins and do a "Git clone" of this plugin
-* Copy SDL2.dll to your Binaries/Win64 folder (in the plugin folder)
+* Create new folder: Plugins/RacingWheel
+* Go to Plugins and put all files into it
 * Generate Visual Studio
 * Open Visual Studio Solution
 * Compile your project

@@ -22,8 +22,7 @@
 				"Win64"
 			],
 			"BlacklistPlatforms": [
-				"IOS",
-				"HTML5"
+				"IOS"
 			]
 		}
 	]
