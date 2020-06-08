@@ -11,7 +11,7 @@
 #include "SlateBasics.h"
 
 #include "IInputDeviceModule.h"
-#include "IInputInterface.h"
+#include "GenericPlatform/IInputInterface.h"
 #include "IInputDevice.h"
 
 #include "WheelInterface.h"

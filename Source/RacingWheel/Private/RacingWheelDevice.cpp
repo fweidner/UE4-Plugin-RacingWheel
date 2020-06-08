@@ -9,7 +9,7 @@
 #include "RacingWheelDevice.h"
 
 #include "RacingWheelPrivatePCH.h"
-#include "Internationalization.h" // LOCTEXT
+#include "Internationalization/Internationalization.h" // LOCTEXT
 
 #include "IInputDevice.h"
 
